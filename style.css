@@ -1,5 +1,5 @@
 * { 
-    box-sizing: border=box;
+    box-sizing: border-box;
     padding: 0;
     margin:0;
     outline: none; 
@@ -56,34 +56,34 @@ span{
     position: absolute;
 }
 .span1{
-    clip-path: polygon (0 92%, 100% 50%, 0 8%);
+    clip-path: polygon(0 92%, 100% 50%, 0 8%);
     background-color: #fffb00;
     top: 120px;
     left: 0;
 }
 
 .span2{
-    clip-path: polygon (100% 92%, 0 50%, 100% 8%);
+    clip-path: polygon(100% 92%, 0 50%, 100% 8%);
     background-color: #ff4fa1;
     top: 120px;
     right: 0;
 }
 
 .span3{
-    clip-path: polygon (50% 0%, 8% 100%, 92% 100%);
+    clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
     background-color: #ffaa00;
     bottom: 0;
     left: 120px;
 }
 
 .span4{
-    clip-path: polygon (50% 100%, 92% 0, 8% 0);
+    clip-path: polygon(50% 100%, 92% 0, 8% 0);
     background-color: #22ff00;
     top: 0;
     left: 120px;
 }
 
-.box .span3 b{
+.box1 .span3 b{
     transform: translate(-50%, -50%) rotate(-270deg);
 
 }
@@ -97,7 +97,7 @@ span{
 }
 .box1 .span4 b,
 .box2 .span4 b{
-    transform; translate(-50%, -50%) rotate(-85deg);
+    transform: translate(-50%, -50%) rotate(-85deg);
 }
 
 span b{
